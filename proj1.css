@@ -1,0 +1,242 @@
+/* headers styling */
+body {
+    background-color: rgba(250,235,215,0.4);
+}
+
+/* navbar */
+header div img{
+   width: 45px;
+   height: 45px;
+   padding:7px 15px;
+}
+.na ul{
+    display:flex;
+    margin: 10px 0px;
+    padding:6px 15px;
+}
+.na ul li{
+    list-style: none;
+}
+.na ul a{
+    font-size: medium;
+    font-family: cursive;
+    color:rgb(244, 239, 239);
+    text-decoration: none;
+    margin: 15px 15px;
+    padding:15px 15px;
+}
+#se{
+    position:absolute;
+    top:20px;
+    right:21px;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    border-radius:9px;
+    border: 2px solid white;
+    padding: 15px 33px 15px 33px;
+}
+.na{
+    display: flex;
+    height:55px;
+    margin-top: 16px;
+    padding-bottom:5px;
+    background-color: rgba(255,255,255,0.1);
+}
+.na::before{
+    content:"";
+    background: url('back.jpg') no-repeat center center/cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:500px;
+    width:100%;
+    z-index: -1;
+    opacity: 1;
+}
+/* primary header */
+.he{
+    margin-top:107px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.he a{
+    padding:10px 27px 10px 27px;
+    border:2px solid white;
+    border-radius: 9px;
+    font-size: large;
+    color:white;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.1);
+}
+.he h1{
+    font-size: 2.5rem;
+    margin: 27px;
+    padding:0px 0px 0px 0px;
+}
+.he p{
+    font-size: large;
+    box-sizing: border-box;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    padding:40px 150px 47px 150px;
+}
+
+
+/* additional items */
+.add{
+    display:flex;
+    justify-content: center;
+   
+}
+.second{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    margin:0px 21px 0px 21px;
+    padding: 15px 15px 15px 15px;
+    background-color: antiquewhite;
+}
+.second img{
+    height:130px;
+    width:130px;
+}
+.second p{
+    text-align: center;
+}
+.second h2{
+    text-align: center;
+}
+.seh {
+    display:flex;
+    flex-direction: column;
+    margin: 80px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    /* background-color: rgba(250,235,215,0.3); */
+}
+.seh h1{
+    text-align: center;
+    font-size: 2rem;
+    display: inline-block;
+    margin:auto;
+    width:465px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+/* teritary--serivices */
+.ser{
+    display:flex;
+    flex-direction: column;
+    margin:0px 0px 0px 0px;
+    padding:0px 80px 0px 80px;
+    /* border:2px solid black; */
+}
+.third{
+    display:flex;
+    text-align: center;
+    margin:20px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    border:2px solid black;
+    border-radius: 29px;
+    background-color: antiquewhite;
+}
+.third p{
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    padding:100px 33px 100px 0px;
+
+}
+.third h2{
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+.third img{
+    height:180px;
+    width:180px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+.third div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+    padding:0px 0px 0px 0px;
+    /* border:2px solid black; */
+}
+.thi{
+    display:flex;
+    flex-direction: column;
+    margin:25px 21px 0px 21px;
+    padding:0px 0px 0px 0px;
+    /* background-color: rgba(250,235,215,0.3); */
+}
+.thi h1{
+    position:sticky;
+    font-size: 1.8rem;
+    display: inline-block;
+    width:358px;
+    border-bottom: 2px solid black;
+}
+
+/* fourth--contact */
+.con{
+    display:flex;
+    flex-direction: column;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 40px 0px;
+}
+.fourth{
+    text-align: center;
+    margin:10px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+.fourth input{
+    text-align: center;
+    font-size:1rem;
+    border:2px solid black;
+    width:415px;
+    padding:7px 0px 7px 0px;
+    margin:0px 0px 0px 0px;
+}
+.fourth textarea{
+    font-size:1rem;
+    border:2px solid black;
+}
+.fo{
+    background: url(back2.jpg)  no-repeat center center/cover;
+    display:flex;
+    flex-direction: column;
+    margin:45px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    opacity: 0.9;
+}
+.fo h1{
+    text-align: center;
+    font-size: 2rem;
+    display:inline-block;
+    margin:auto;
+    width:260px;
+    border-bottom:2px solid black;
+    margin-bottom: 15px;
+    padding-top:30px;
+}
+.center{
+    display:inline-block;
+    margin:auto;
+    width:550px;
+    font-size: 1.4rem;
+}
+
+
+
+
+
