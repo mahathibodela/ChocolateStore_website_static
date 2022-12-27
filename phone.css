@@ -1,6 +1,107 @@
 body{
-    background-color: blue;
+    margin:0px;
+}
+
+/* navbar */
+header{
+    height:600px;
+}
+.he h1{
+    margin:0px;
+}
+.he::before{
+    height:620px;
+}
+.he p{
+    padding: 5px 22px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+.na nav{
+    display:flex;
+    flex-wrap: wrap;
+}
+.na img{
+    display:block;
+    margin:auto;   
+}
+.na ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    padding:0px;
+}
+.na ul a{
+    font-size: medium;
+    font-family: cursive;
+    color:rgb(244, 239, 239);
+    text-decoration: none;
+    margin: 0px 0px;
+    padding:0px 0px;
+}
+.na ul li{
+    margin: 0px 6px;
+    padding: 6px 4px;
 }
 .na{
+    display:flex;
     flex-direction: column;
+}
+#se{
+    top:22px;
+    right:0px;
+    padding: 1px 1px;
+    width: 25%;
+}
+
+/* primary header */
+/* additional items */
+.add{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 0px 0px 5px 0px;
+}
+.seh h1{
+    width:100%;
+}
+.second{
+    margin-bottom: 15px;
+}
+/* teritary--serivices */
+.third{
+    flex-direction: column;
+    width: 100%;
+}
+.thi h1{
+    width: 100%;
+}
+.ser{
+    padding:0px;
+}
+.third{
+    width: 100%;
+}
+.third p{
+    padding:0px 9px;
+    padding-bottom: 9px;
+}
+.third img{
+    width:95%;
+}
+/* fourth--contact */
+.center{
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
+.fo h1{
+    width:100%;
+}
+.fourth input,.fourth textarea{
+    width:80%;
 }

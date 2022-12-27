@@ -4,6 +4,11 @@ body {
 }
 
 /* navbar */
+header{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+}
 header div img{
    width: 45px;
    height: 45px;
@@ -11,6 +16,7 @@ header div img{
 }
 .na ul{
     display:flex;
+    width:100%;
     margin: 10px 0px;
     padding:6px 15px;
 }
@@ -27,7 +33,7 @@ header div img{
 }
 #se{
     position:absolute;
-    top:20px;
+    top:3px;
     right:21px;
     font-size: medium;
     color: white;
@@ -43,7 +49,7 @@ header div img{
     padding-bottom:5px;
     background-color: rgba(255,255,255,0.1);
 }
-.na::before{
+.he::before{
     content:"";
     background: url('back.jpg') no-repeat center center/cover;
     position:absolute;
@@ -73,6 +79,7 @@ header div img{
     background-color: rgba(255,255,255,0.1);
 }
 .he h1{
+    text-align: center;
     font-size: 2.5rem;
     margin: 27px;
     padding:0px 0px 0px 0px;
@@ -158,10 +165,12 @@ header div img{
     padding:0px 0px 0px 0px;
 }
 .third img{
+    
     height:180px;
     width:180px;
     margin:0px 0px 0px 0px;
     padding:0px 0px 0px 0px;
+
 }
 .third div{
     display: flex;
